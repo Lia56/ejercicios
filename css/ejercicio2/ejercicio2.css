@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(155, 167, 184);
+}
+
+h1{
+    text-align:right;
+}
+
+.rojo{
+    color:red;
+    font-family: "Comic Sans MS";
+    
+}
+
+.naranja{
+    color:orange;
+}
+
+.verde{
+    color:green;
+    background-color:white;
+    font-style:italic;
+}
