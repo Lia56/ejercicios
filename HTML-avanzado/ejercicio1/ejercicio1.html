@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ejercicio1.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="formulario">
+    <form>
+        <fieldset>
+            <legend>Datos del comprador</legend>
+            <label  for="nombre">Nombre</label>
+            <input class="mrojo" id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre completo"/>
+
+            <br/>
+
+            <label for="email">Email</label>
+            <input class="mrojo" id="email" name="email" type="email" placeholder="ejemplo@um.es"/>
+
+            <br/>
+
+            <label for="telefono">Teléfono</label>
+            <input class="mrojo" id="telefono" name="telefono" type="number" placeholder="Ej. 667-478-8777">
+
+            <br/>
+
+            <label for="pais">País</label>
+            <input class="mrojo" id="pais" name="pais" type="text"/>
+
+        </fieldset>
+    </form>
+
+    <br/>
+
+    <form>
+        <fieldset>
+            <legend>Datos de la tarjeta de crédito o débito</legend>
+            <label for="numero">Número</label>
+            <input class="mrojo" id="numero" type="number" name="numero" placeholder="Ej. 3487-3443-4454-3433"/>
+
+            <br/>
+
+            <label for="nombre">Nombre</label>
+            <input class="mrojo" id="nombre_tarjeta" name="nombre" type="number" placeholder="Nombre que figura en la tarejta"/>
+
+        </fieldset>
+    </form>
+
+    <br/>
+
+    <div class="confirmar">
+        <input type="submit" value="Confirmar pedido"/>
+    </div>
+</div>
+    
+</body>
+</html>
