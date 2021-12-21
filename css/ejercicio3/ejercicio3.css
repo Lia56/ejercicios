@@ -1,0 +1,55 @@
+body{
+    background-color:green;
+}
+
+h1{
+    color:white;
+}
+
+.cblanca{
+    background-color:white;
+    border:7px solid black;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    margin-left: 500px;
+    margin-right: 400px;
+
+}
+
+.cnaranja{
+    background-color:orange;
+    border:15px solid red;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 700px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.ccafe{
+    background-color: rgb(94, 24, 24);
+    border:10px solid brown;
+    margin: 15px;
+    padding: 5px;
+    color: white;
+    margin-left: 700px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.cazul{
+    background-color: blue;
+    border:5px dashed lightblue;
+    margin: .5px;
+    padding: 15px;
+    color: white;
+    margin-left: 500px;
+    margin-right: 400px;
+
+}
+    
