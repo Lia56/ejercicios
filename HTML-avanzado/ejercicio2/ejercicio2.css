@@ -1,0 +1,33 @@
+body{
+    background-color:cadetblue;
+}
+
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+
+.naranja{
+    background-color:orange;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.negro{
+    background-color: black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rojo {
+      color:red;
+  }
+
+  .bold {
+      font-weight: bold;
+  }

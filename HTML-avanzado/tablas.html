@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ed">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/tablas.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <!--colspan y rowspan-->
+    <!--colspan: elemento se extiende por columnas (crece hacia la derecha)-->
+    <!--rowspan: elemento se extiende por filas (crece hacia abajo)-->
+
+    <table>
+        <thead>
+            <!--tr crea una fila-->
+            <tr>
+                <!--th cabecera de tabla-->
+                <th>Cabecera</th>
+                <th colspan="2">Cabecera 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>
+            </tr>
+            <tr>
+                <td>Hola</td>
+                <td>Adiós</td>
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+               
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pie de tabla</td>
+                <td>Pie de tabla</td>
+                <td>Pie de tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+<!--  ICONOS
+<script src="https://kit.fontawesome.com/5a36ceff30.js%22 crossorigin="anonymous"></script>  -->
+
+</body>
+</html>
