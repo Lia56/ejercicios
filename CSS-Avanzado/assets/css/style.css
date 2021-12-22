@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Noto+Sans+Hebrew:wght@300&family=Noto+Sans+TC&family=Roboto:wght@300&family=Rock+3D&display=swap');
+
+p {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h1{
+    font-family: 'Rock 3D', cursive;
+}
+
+.chino{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.heb{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.cursiva{
+    font-family: 'Imperial Script', cursive;
+}
