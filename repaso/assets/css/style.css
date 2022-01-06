@@ -1,0 +1,22 @@
+table, tr, th, td {
+
+    border: 1px solid black;
+}
+
+table {
+    width: 400px;
+}
+
+.enlace {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+/*solo se puede cambiar width y height si se pone el display como "block" o "inline-block"*/
+    background-color:blue;
+}
+
+#bloque{
+    
+    text-align: center;
+    background-color: red;
+}

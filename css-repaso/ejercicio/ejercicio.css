@@ -1,0 +1,48 @@
+body {
+
+    background-color: rgb(182, 178, 178);
+}
+
+.titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo {
+
+    color: white;
+    background-color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.rojo {
+    color:red;
+    font-style: italic;
+
+}
+
+.blanco {
+    background-color: white;
+    font-weight:bold ;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+
+    float:left;
+}
+
+.primero {
+    margin-left: 100px;
+    margin-right: 120px;
+}
+
+.segundo {
+    margin-left: 100px;
+    margin-right: 120px;
+}
